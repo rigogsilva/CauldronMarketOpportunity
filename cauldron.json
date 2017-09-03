@@ -1,0 +1,15 @@
+{
+  "author": "",
+  "id": "Market_Oportunity",
+  "name": "Market_Oportunity",
+  "naming_scheme": "S{{##}}-{{name}}.{{ext}}",
+  "steps": [
+    "S01-Study.py",
+    "S02-Import Data.py",
+    "S03-DisplayBarchartforHourlyPay.py",
+    "S04-InternetMobileUsers.py",
+    "S05-Conclusion.py"
+  ],
+  "summary": "",
+  "title": "Market Oportunity"
+}
