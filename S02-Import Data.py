@@ -1,6 +1,10 @@
 import cauldron as cd
 import pandas as pd
 
+#----------------------------------------------------------------------
+### Import csv files and share it with other steps. 
+#----------------------------------------------------------------------
+
 #import csv data 
 epc = pd.read_csv('EnterprisesPerCountry.csv')
 mg = pd.read_csv('LatinAmericaInternetUsersGrowth.csv')

@@ -1,10 +1,14 @@
 import cauldron as cd
 import plotly.graph_objs as go
 
-# Get data from previous step
+#----------------------------------------------------------------------
+### Display data from internet and mobile using a bar graphic 
+#----------------------------------------------------------------------
+
+#Get data from previous step
 epc = cd.shared.epc 
 
-# Display text. 
+#Display text. 
 cd.display.markdown(
     """
     ### Brazil's Internet and Mobile Penetration
@@ -13,7 +17,7 @@ cd.display.markdown(
     """
 )
 
-# Set x and y values for internet users and mobile users
+#Set x and y values for internet users and mobile users
 country = go.Bar(x=list(epc['Country']),
                   y=list(epc['Internet Users']),
                   name='Internet Users',
